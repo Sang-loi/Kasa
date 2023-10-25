@@ -1,0 +1,24 @@
+.propos{
+    max-width: 1240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    padding: 0 100px;
+    & .banner{
+        height: 223px;
+        margin-bottom: 38px;
+    }
+    & .active{
+        & .collapse_content{
+            height: auto;
+        } 
+    }
+}
+
+@media (max-width: 768px) {
+    .propos{
+        padding: 0;
+    }
+}

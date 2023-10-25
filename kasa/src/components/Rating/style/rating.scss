@@ -1,0 +1,26 @@
+.loc_info{
+    &-ratings{
+        &-rating{
+            display: flex;
+            gap: 15.75px;
+            &-img{
+                width: 24.75px;
+                height: 24px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .loc_info{
+        &-ratings{
+            &-rating{
+                gap: 6.59px;
+                &-img{
+                    width: 13.41px;
+                    height: 13px;
+                }
+            }
+        }
+    }
+}
